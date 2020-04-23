@@ -1,5 +1,5 @@
-input = 'the sky is blue'
-a = input.split()##去掉所有空格
+inp = 'the sky is blue'
+a = inp.split()##去掉所有空格
 b = b[::-1]##翻转String内元素的顺序
 c = ''##一个空的String
 for i in b:
